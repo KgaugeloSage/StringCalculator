@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'idea'	 // optional, for IntelliJ IDEA project
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.0'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.0'
+}
+
+test {
+    useJUnitPlatform()
+}
