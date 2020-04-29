@@ -46,7 +46,6 @@ public class StringCalculator {
                    }else {
                        answer = answer + Integer.parseInt(multiTrim);
                    }
-
                     }catch (IllegalArgumentException e){
                    System.out.println("ERROR: negatives not allowed");
                }
