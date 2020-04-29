@@ -50,9 +50,7 @@ public class StringCalculator {
                     }catch (IllegalArgumentException e){
                    System.out.println("ERROR: negatives not allowed");
                }
-
            }
-
         }
 
         return answer;
